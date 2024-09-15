@@ -1,0 +1,77 @@
+li{
+    list-style-type: none;
+    width: 100%;
+    margin-left:40px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 15px;
+    background-color: rgb(235, 211, 166);
+ }
+
+ .delete{
+    background-color: rgb(126, 16, 16);
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    color: white;
+
+ }
+
+ .edit{
+   background-color: rgb(11, 109, 27);
+   border-radius: 5px;
+   height: 30px;
+   width: 70px;
+   color: white;
+}
+
+
+.annuler{
+   background-color: rgb(255, 16, 16);
+   border-radius: 5px;
+   height: 30px;
+   width: 70px;
+   color: white;
+
+}
+
+.confirm{
+  background-color: rgb(153, 170, 156);
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  color: white;
+
+}
+ .inputDiv{
+   width: 95%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+   gap:20px;
+   padding-inline: 10px;
+   padding-block: 20px;
+   background-color: #e07030;
+   border-radius: 12px;
+
+}
+
+.inputDiv input{
+   width: 60%;
+   height: 40px;
+   border-radius: 12px;
+ 
+
+}
+
+.inputDiv button{
+   background-color: green;
+   border-radius: 5px;
+   height: 30px;
+   width: 90px;
+   color: aliceblue
+}
